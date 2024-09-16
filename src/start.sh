@@ -10,7 +10,7 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 
-# Start the FastAPI server in the background
+# Start the FastAPI server in the background using SERVER_PID
 echo "Starting the web server..."
 
 uvicorn app.main:app --reload --workers 1 --host 0.0.0.0 --port 8000 & SERVER_PID=$!
