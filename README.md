@@ -147,7 +147,7 @@ After that, you will need to connect the database, using the following parameter
 
 Then, you can inspect the db using [pgadmin](https://www.pgadmin.org/docs/pgadmin4/development/getting_started.html)
 
-### Data Analysis examples
+### Data Analysis exploration
 
 #### Performance
 We could check the performance of our model with:
