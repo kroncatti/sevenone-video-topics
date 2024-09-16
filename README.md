@@ -142,7 +142,7 @@ You will need to login using the following credentails defined in the `.env` fil
 After that, you will need to connect the database, using the following parameters from the `.env` file:
 
 - username: `POSTGRES_USER`,
-- password: `POSTGRES_PASSWORD`
+- password: `POSTGRES_PASSWORD`,
 - host: `PGADMIN_HOST`
 
 Then, you can inspect the db using [pgadmin](https://www.pgadmin.org/docs/pgadmin4/development/getting_started.html)
